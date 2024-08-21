@@ -271,7 +271,7 @@ a {
   }
 }
 @media (min-width: 1120px) {
-  .brands__slide-wrapper {
+  .brands__slides-wrapper {
     display: flex;
     flex-wrap: wrap;
     -moz-column-gap: 32px;
