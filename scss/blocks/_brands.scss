@@ -23,18 +23,18 @@
   }
 }
 
-.swiper-pagination-bullet {
-  background-color: $dots-color;
-  width: 12px;
-  height: 12px;
-}
+// .swiper-pagination-bullet {
+//   background-color: $dots-color;
+//   width: 12px;
+//   height: 12px;
+// }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal
-  .swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 0 6px;
-}
+// .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+// .swiper-pagination-horizontal
+//   .swiper-pagination-bullets
+//   .swiper-pagination-bullet {
+//   margin: 0 6px;
+// }
 
 @media (min-width: 768px) {
   .brands {
