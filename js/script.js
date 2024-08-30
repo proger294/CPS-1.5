@@ -1,3 +1,4 @@
+
 const btnShowAll = document.querySelector(".btn-show-all");
 const slides = document.querySelectorAll(".swiper-slide");
 
