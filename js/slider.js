@@ -11,7 +11,13 @@
   
     breakpoints: {
       320: {
+        loop: false,
+        freeMode: true,
+        slidesPerView: "auto",
         enabled: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
 
       },
       768: {
