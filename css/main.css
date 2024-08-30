@@ -221,7 +221,6 @@ a {
 .brands__slide {
   display: flex;
   justify-content: center;
-  flex-shrink: 0;
   width: 240px;
 }
 .brands__slide:not(:last-child) {

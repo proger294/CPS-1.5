@@ -15,7 +15,6 @@
   &__slide {
     display: flex;
     justify-content: center;
-    flex-shrink: 0;
     width: 240px;
 
     &:not(:last-child) {
