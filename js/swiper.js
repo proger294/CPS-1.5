@@ -1,25 +1,21 @@
 
 
 
-if(window.innerWidth === 320){
-  const swiper = new Swiper(".swiper", {
-    loop: false,
-    freeMode: true,
-    slidesPerView: "auto",
-    enabled: true,
-    pagination: {
-      el: ".swiper-pagination",
+const swiper = new Swiper(".swiper", {
+  loop: false,
+  freeMode: true,
+  slidesPerView: "auto",
+  enabled: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  breakpoints: {
+    320: {
+      enabled: true,
     },
-  
-    breakpoints: {
-      320: {
-        enabled: true,
-      },
+    768: {
+      enabled: false,
     },
-    breakpoints: {
-      768: {
-        enabled: false,
-      },
-    },
-  });
-}
+  },
+});
