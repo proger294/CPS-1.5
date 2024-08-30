@@ -1,20 +1,25 @@
-const swiper = new Swiper(".swiper", {
-  loop: false,
-  freeMode: true,
-  slidesPerView: "auto",
-  enabled: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
 
-  breakpoints: {
-    320: {
-      enabled: true,
+
+
+if(window.innerWidth === 320){
+  const swiper = new Swiper(".swiper", {
+    loop: false,
+    freeMode: true,
+    slidesPerView: "auto",
+    enabled: true,
+    pagination: {
+      el: ".swiper-pagination",
     },
-  },
-  breakpoints: {
-    768: {
-      enabled: false,
+  
+    breakpoints: {
+      320: {
+        enabled: true,
+      },
     },
-  },
-});
+    breakpoints: {
+      768: {
+        enabled: false,
+      },
+    },
+  });
+}
