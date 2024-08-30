@@ -1,7 +1,7 @@
 
 
 
-const swiper = new Swiper(".brands__swiper", {
+const swiper = new Swiper(".swiper", {
   loop: false,
   freeMode: true,
   slidesPerView: "auto",
