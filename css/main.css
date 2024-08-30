@@ -216,11 +216,13 @@ a {
 .brands__slides-wrapper {
   padding-top: 16px;
   display: flex;
+  width: auto;
 }
 .brands__slide {
   display: flex;
   justify-content: center;
-  flex-shrink: 1;
+  flex-shrink: 0;
+  width: 240px;
 }
 .brands__slide:not(:last-child) {
   margin-right: 16px;
@@ -255,8 +257,7 @@ a {
     padding-top: 24px;
   }
   .brands__slide {
-    width: auto;
-    height: auto;
+    width: 224px;
   }
   .brands__slide:not(:last-child) {
     margin: 0;
@@ -278,24 +279,15 @@ a {
          column-gap: 32px;
     row-gap: 16px;
   }
+  .brands__slide {
+    width: 240px;
+  }
   .brands__slide:not(:nth-child(-n+8)) {
     display: none;
   }
 }
 .brands-slide--visible:nth-child(n) {
   display: block;
-}
-
-.sub-title {
-  font-family: "TT Lakes Regular";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #7E7E82;
-  background-color: #FFFFFF;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .brand-card {
@@ -320,6 +312,18 @@ a {
     width: 240px;
   }
 }
+.sub-title {
+  font-family: "TT Lakes Regular";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #7E7E82;
+  background-color: #FFFFFF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .repair-btn {
   width: 40px;
   height: 40px;
