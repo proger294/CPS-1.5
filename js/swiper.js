@@ -4,7 +4,7 @@
 const swiper = new Swiper(".swiper", {
   loop: false,
   freeMode: true,
-  slidesPerView: "auto",
+  slidesPerView: 1,
   enabled: true,
   pagination: {
     el: ".swiper-pagination",
