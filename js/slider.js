@@ -1,6 +1,6 @@
 
-window.addEventListener("DOMContentLoaded", () =>{
-  const swiper = new Swiper(".brands__swiper", {
+// window.addEventListener("DOMContentLoaded", () =>{
+  const swiper = new Swiper(".swiper", {
     loop: false,
     freeMode: true,
     slidesPerView: "auto",
@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded", () =>{
     breakpoints: {
       320: {
         enabled: true,
+
       },
       768: {
         enabled: false,
@@ -19,5 +20,5 @@ window.addEventListener("DOMContentLoaded", () =>{
     },
   });
   
-})
+// })
 
